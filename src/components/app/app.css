@@ -1,9 +1,16 @@
 .app {
   text-align: center;
   font-family: "Sintony", sans-serif;
+  text-decoration: none;
 }
 
 .navbar a {
   display: inline-block;
   text-decoration: none;
+  color: #f47741;
+}
+
+h1 a {
+  text-decoration: none;
+  color: black;
 }

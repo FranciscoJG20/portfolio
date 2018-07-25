@@ -9,7 +9,9 @@ class App extends Component {
     return (
       <div className="app">
         {/* <Projects /> */}
-        <h1>Francisco Vince Gutierrez</h1>
+        <h1>
+          <Link to="/">Francisco Gutierrez </Link>
+        </h1>
         <nav className="navbar">
           <div>
             <Link to="/about">About</Link>
@@ -18,6 +20,11 @@ class App extends Component {
             <Link to="/projects">Projects</Link>
           </div>
         </nav>
+
+        <h2>Building Community</h2>
+        <h2>Building Experiences</h2>
+        <h2>Building Tools</h2>
+
         <Route path="/projects" component={Projects} />
         <Route path="/about" component={About} />
       </div>
