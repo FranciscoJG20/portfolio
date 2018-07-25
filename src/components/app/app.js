@@ -24,7 +24,7 @@ class App extends Component {
           </div>
         </nav>
 
-        <h3>Building Community</h3>
+        <h3>Building Comunidad</h3>
         <h3>Building Experiences</h3>
         <h3>Building Tools</h3>
 
