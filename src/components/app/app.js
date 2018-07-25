@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./app.css";
 import About from "../about/about";
 import Projects from "../projects/projects";
+import Resume from "../resume/resume";
 import { Link, Route } from "react-router-dom";
 
 class App extends Component {
@@ -18,6 +19,9 @@ class App extends Component {
           <div>
             <Link to="/projects">Projects</Link>
           </div>
+          <div>
+            <Link to="/resume">Resume</Link>
+          </div>
         </nav>
 
         <h3>Building Community</h3>
@@ -26,6 +30,7 @@ class App extends Component {
 
         <Route path="/projects" component={Projects} />
         <Route path="/about" component={About} />
+        <Route path="/resume" component={Resume} />
       </div>
     );
   }
