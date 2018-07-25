@@ -1,0 +1,10 @@
+p {
+  text-align: center;
+  width: 250px;
+}
+
+#bio {
+  margin: auto;
+  width: 250px;
+  padding: 20px;
+}
