@@ -8,7 +8,6 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        {/* <Projects /> */}
         <h1>
           <Link to="/">Francisco Gutierrez </Link>
         </h1>
@@ -21,9 +20,9 @@ class App extends Component {
           </div>
         </nav>
 
-        <h2>Building Community</h2>
-        <h2>Building Experiences</h2>
-        <h2>Building Tools</h2>
+        <h3>Building Community</h3>
+        <h3>Building Experiences</h3>
+        <h3>Building Tools</h3>
 
         <Route path="/projects" component={Projects} />
         <Route path="/about" component={About} />
