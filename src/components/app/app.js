@@ -12,6 +12,9 @@ class App extends Component {
         <h1>
           <Link to="/">Francisco Gutierrez </Link>
         </h1>
+        <h2 style={{ color: "#f47741" }}>
+          SOFTWARE ENGINEER | DIVERSITY ADVOCATE
+        </h2>
         <nav className="navbar">
           <div>
             <Link to="/about">About</Link>
@@ -24,9 +27,23 @@ class App extends Component {
           </div>
         </nav>
 
-        <h3>Building Comunidad</h3>
-        <h3>Building Experiences</h3>
-        <h3>Building Tools</h3>
+        <footer>
+          <a
+            href="https://github.com/FranciscoJG20"
+            class="fab fa-github"
+            alt="github icon"
+          />
+          <a
+            href="https://www.linkedin.com/in/franciscojgutierrez"
+            class="fab fa-linkedin-in"
+            alt="linkedin icon"
+          />
+          <a
+            href="https://medium.com/@franciscogu"
+            class="fab fa-medium-m"
+            alt="medium icon"
+          />
+        </footer>
 
         <Route path="/projects" component={Projects} />
         <Route path="/about" component={About} />
