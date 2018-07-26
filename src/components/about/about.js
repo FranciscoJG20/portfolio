@@ -5,6 +5,9 @@ class About extends Component {
   render() {
     return (
       <div id="bio">
+        <h3>Building Community</h3>
+        <h3>Building Experiences</h3>
+        <h3>Building Tools</h3>
         <p>
           I'm a full stack developer with a strong operations management
           background. I understand the complexities of starting from the ground,
