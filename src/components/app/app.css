@@ -7,10 +7,42 @@
 .navbar a {
   display: inline-block;
   text-decoration: none;
-  color: #f47741;
+  color: black;
 }
 
 h1 a {
+  font-size: 50px;
   text-decoration: none;
   color: black;
+}
+
+footer {
+  margin: auto;
+  width: 250px;
+  padding: 20px;
+}
+
+.fab {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-decoration: none;
+  text-align: center;
+  margin: 5px 2px;
+  border-radius: 80%;
+}
+
+.fa-linkedin-in {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-medium-m {
+  background: black;
+  color: white;
+}
+
+.fa-github {
+  background: #f47741;
+  color: white;
 }

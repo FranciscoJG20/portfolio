@@ -1,0 +1,19 @@
+.flexbox-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+.flex-item {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  line-height: 100px;
+}
+
+img {
+  width: 40%;
+  text-align: center;
+}
