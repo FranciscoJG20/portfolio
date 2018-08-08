@@ -17,3 +17,22 @@ img {
   width: 40%;
   text-align: center;
 }
+
+p {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.links a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 20px;
+  color: blue;
+  border-style: dashed;
+  border-width: ;
+}
+
+.project-title {
+  font-size: 20px;
+}

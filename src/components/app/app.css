@@ -2,10 +2,22 @@
   text-align: center;
   font-family: "Sintony", sans-serif;
   text-decoration: none;
+  padding-top: 50px;
 }
 
-.navbar a {
-  display: inline-block;
+ul {
+  list-style-type: none;
+  margin: auto;
+  width: 250px;
+  padding: 20px;
+}
+
+li {
+  float: left;
+  padding: 10px;
+}
+
+li a {
   text-decoration: none;
   color: black;
 }

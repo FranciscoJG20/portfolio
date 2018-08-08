@@ -16,37 +16,43 @@ class App extends Component {
           SOFTWARE ENGINEER | DIVERSITY ADVOCATE
         </h2>
         <nav className="navbar">
-          <div>
-            <Link to="/about">About</Link>
-          </div>
-          <div>
-            <Link to="/projects">Projects</Link>
-          </div>
-          <div>
-            <Link to="/resume">Resume</Link>
-          </div>
+          <ul>
+            <li>
+              <Link to="/about" onmouseover="">
+                About
+              </Link>
+            </li>
+            <li>
+              <Link to="/projects">Projects</Link>
+            </li>
+            <li>
+              <Link to="/resume">Resume</Link>
+            </li>
+          </ul>
         </nav>
-
+        <br />
         <footer>
           <a
             href="https://github.com/FranciscoJG20"
             class="fab fa-github"
             alt="github icon"
+            target="_blank"
           />
           <a
             href="https://www.linkedin.com/in/franciscojgutierrez"
             class="fab fa-linkedin-in"
             alt="linkedin icon"
+            target="_blank"
           />
           <a
             href="https://medium.com/@franciscogu"
             class="fab fa-medium-m"
             alt="medium icon"
+            target="_blank"
           />
         </footer>
-
-        <Route path="/projects" component={Projects} />
         <Route path="/about" component={About} />
+        <Route path="/projects" component={Projects} />
         <Route path="/resume" component={Resume} />
       </div>
     );
