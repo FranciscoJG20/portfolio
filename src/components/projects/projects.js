@@ -21,10 +21,15 @@ class Projects extends Component {
               <a
                 href="https://franciscojg20.github.io/rugratsgame/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Live
               </a>
-              <a href="" targe="_blank">
+              <a
+                href="https://github.com/FranciscoJG20/rugratsgame/tree/gh-pages"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Github
               </a>
             </div>
@@ -44,10 +49,18 @@ class Projects extends Component {
             <br />
             <br />
             <div className="links">
-              <a href="https://biasreporting.herokuapp.com" target="_blank">
+              <a
+                href="https://biasreporting.herokuapp.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Live
               </a>
-              <a href="" targe="_blank">
+              <a
+                href="https://github.com/FranciscoJG20/BRA"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Github
               </a>
             </div>
@@ -71,10 +84,18 @@ class Projects extends Component {
             <br />
             <br />
             <div className="links">
-              <a href="http://fitnessfriends.surge.sh/" target="_blank">
+              <a
+                href="http://fitnessfriends.surge.sh/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Live
               </a>
-              <a href="" targe="_blank">
+              <a
+                href="https://github.com/lenelow/fitness-friends"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Github
               </a>
             </div>
@@ -95,10 +116,18 @@ class Projects extends Component {
           <br />
           <br />
           <div className="links">
-            <a href="" target="_blank">
+            <a
+              href="https://pear-review.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Live
             </a>
-            <a href="" target="_blank">
+            <a
+              href="https://github.com/FranciscoJG20/pear_review"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Github
             </a>
           </div>

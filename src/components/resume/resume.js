@@ -9,6 +9,7 @@ class Resume extends Component {
           <a
             href="https://drive.google.com/file/d/0B1mGkf2ZbU1jdnduY1Z3UDEwZTEyeUVtY0VJdll0eGFFeUhZ/view?usp=sharing"
             target="_blank"
+            rel="noopener noreferrer"
           >
             view pdf version
           </a>

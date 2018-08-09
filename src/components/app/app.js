@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="app">
         <h1>
-          <Link to="/">Francisco Gutierrez </Link>
+          <Link to="/about">Francisco Gutierrez </Link>
         </h1>
         <h2 style={{ color: "#f47741" }}>
           SOFTWARE ENGINEER | DIVERSITY ADVOCATE
@@ -18,9 +18,7 @@ class App extends Component {
         <nav className="navbar">
           <ul>
             <li>
-              <Link to="/about" onmouseover="">
-                About
-              </Link>
+              <Link to="/about">About</Link>
             </li>
             <li>
               <Link to="/projects">Projects</Link>
@@ -37,18 +35,21 @@ class App extends Component {
             class="fab fa-github"
             alt="github icon"
             target="_blank"
+            rel="noopener noreferrer"
           />
           <a
             href="https://www.linkedin.com/in/franciscojgutierrez"
             class="fab fa-linkedin-in"
             alt="linkedin icon"
             target="_blank"
+            rel="noopener noreferrer"
           />
           <a
             href="https://medium.com/@franciscogu"
             class="fab fa-medium-m"
             alt="medium icon"
             target="_blank"
+            rel="noopener noreferrer"
           />
         </footer>
         <Route path="/about" component={About} />
