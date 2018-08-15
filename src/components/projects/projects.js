@@ -72,7 +72,7 @@ class Projects extends Component {
           </p>
           <br />
 
-          <div class="flex-item">
+          {/* <div class="flex-item">
             <img
               src="project3.png"
               alt="screenshot of a fitness social network"
@@ -105,7 +105,7 @@ class Projects extends Component {
             developers following the Gitflow workflow.
           </p>
           <br />
-        </div>
+        </div> */}
 
         <div class="flex-item">
           <img src="project4.png" alt="screenshot of pear-review homepage" />
